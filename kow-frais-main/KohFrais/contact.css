@@ -1,0 +1,22 @@
+/* CSS CONTACT */
+/* MAIN */
+main {
+    padding: 1em;
+}
+
+section{
+    margin-top: 1em;
+}
+
+article {
+    background-color: #2E5159;
+    padding: 1em;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+/* MAIN */
+
+main{
+    padding: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
+/* FOOTER */ 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

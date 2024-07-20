@@ -1,0 +1,50 @@
+/* Style Professionnel / Particulier */ 
+section{
+    display: inline-flex;
+    padding: 0% 2%;
+    
+}
+article{
+    background-color:#2E5159;
+    color: #FFE6CF;
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 1em;
+    padding: 1em;
+    
+}
+
+article figure{
+    float: left;
+    text-align: center;
+}
+
+article p{
+    text-align: justify;
+    font-size: large;
+}
+
+article img {
+    height: 200px;
+    margin: 10px ;
+}
+
+article img:hover {
+    height: 400px;
+}
+
+figcaption{
+    font-size: x-large;
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        display: block;
+        padding: 0;
+    }
+    article{
+        height: auto;
+        width: auto;
+    }
+}

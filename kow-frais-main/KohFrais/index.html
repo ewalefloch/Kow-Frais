@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boostrap/bootstrap/css/bootstrap.css">
+    <script src="boostrap/bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <img id="Glogo" src="images/logo_koh_frais_png/logo_Koh_Frais_bleu.png" alt="Logo Koh Frais">
+        <img id="Plogo" src="images/logo_koh_frais_png/icone_glace_bleu.png" alt="Logo Koh Frais">
+        <h1 id="titre">KohFrais</h1>
+        <nav class="navbar navbar-expand">
+            <button class="navbar-toggler dropdown-toggle " type="button" data-bs-toggle="collapse dropdown" 
+            data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse dropdown" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"> 
+                    <a class="nav-link" href="index.html">Accueil</a> 
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="particulier.html">Particulier</a> 
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="professionnel.html">Professionnel</a> 
+                </li>
+                <li class="nav-item"> 
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Qui sommes nous ?</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="localisation.html">Localisation</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="presentation.html">Présentation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <h2>Nos Top Produit</h2>
+    <div id="Diaporama" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/coulis_de_fraise.jpg" class="center" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/glace_caramel_beurre_sale.jpg" class="center" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/glace_pommes.jpeg" class="center" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Diaporama" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Diaporama" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section>
+        <article id="art1">
+            <h2>Nos produits français</h2>
+            <p>
+                Découvrez notre gamme de produit d'origine française dont les matières premières viennent de producteurs locaux. La fabrication est bien évidemment faite chez nos particuliers ainsi que chez nos professionnels. Nous mettons l'accent sur la diversité de nos produits et surtout sur la qualité de nos créations.  Vous pouvez retrouver des produits certifiés bio. 
+            </p>
+        </article>
+        <article id="art2">
+            <h2>Courte présentation</h2>
+            <p>
+                Nous sommes une petite entreprise répartie sur deux site dont un à Lannion et un autre sur Pontivy. Nous sommes fiers de vous présenter nos produits divers et variés dont nous avons privilégié la qualité. Vous pouvez retrouver nos produits sur notre site internet si vous êtes intéressé.
+            </p>
+        </article>
+    </section>
+</main>
+<footer>
+    <img src="images/madeinfrance.jpg" alt="Logo Made in france">
+    <p>Site réalisé par l'équipe G21 <a href="mailto:maxime.boujeant@gmail.com">NCEM</a> - <time datetime="2022-01-01">1 janvier 2022</time></p>
+</footer>
+</body>
+</html>
+
